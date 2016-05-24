@@ -716,7 +716,7 @@ int __cdecl wmain(_In_ int argc, _In_z_count_(argc) wchar_t* argv[])
 				&& (OPT_SRGB != dwOption) && (OPT_SRGBI != dwOption) && (OPT_SRGBO != dwOption)
 				&& (OPT_HFLIP != dwOption) && (OPT_VFLIP != dwOption)
 				&& (OPT_COMPRESS_UNIFORM != dwOption) && (OPT_COMPRESS_MAX != dwOption) && (OPT_COMPRESS_DITHER != dwOption)
-				&& (OPT_DDS_DWORD_ALIGN != dwOption) && (OPT_USE_DX10 != dwOption))
+				&& (OPT_DDS_DWORD_ALIGN != dwOption) && (OPT_USE_DX10 != dwOption) && (OPT_FOLLOW_SRC_FILE_TYPE != dwOption))
 			{
 				if (!*pValue)
 				{
